@@ -163,7 +163,7 @@ def main():
         
         with col1:
             st.subheader("Uploaded Image")
-            st.image(image, caption="Options Chain Image", use_column_width=True)
+            st.image(image, caption="Options Chain Image", use_container_width=True)
         
         with col2:
             st.subheader("Processing...")
